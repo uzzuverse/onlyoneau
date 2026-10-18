@@ -39,6 +39,7 @@ hr {
 .tweet_footer p {
   font-size: 14px !important;
 }
+
 .color--lightgrey {
   color: #d9d9d9;
 }
@@ -230,6 +231,7 @@ border-bottom: none;
   background-repeat: no-repeat;
   display:inline-flex;
   vertical-align: text-bottom;
+  line-height: 0 !important;
 }
 
 .icon--comments {
