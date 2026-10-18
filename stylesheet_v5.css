@@ -127,10 +127,6 @@ border-bottom: none;
   margin-top: 16px !important;
 }  
 
-.tweet_footer p {
-  line-height: 0 !important;
-}
-
 .tweet_footer .row, .account_userMeta .row {
   width: 100%;
   align-items: center;
@@ -232,9 +228,8 @@ border-bottom: none;
   margin-right: 4px !important;
   background-size: 100%;
   background-repeat: no-repeat;
-  display:inline-block;
+  display:inline-flex;
   vertical-align: text-bottom;
-
 }
 
 .icon--comments {
@@ -372,21 +367,26 @@ border-bottom: none;
 .message { 
   width: fit-content;
   max-width: 75%;
-  padding: 8px 12px;
-  border-radius: 1em;
-  margin-bottom: 8px !important;
+  padding-block: 8px;
+  padding-inline: 16px;
+  border-radius: 16px;
+  margin-bottom: 4px !important;
 }
 
 .dm_box_image {
+  line-height: 0 !important;
+  margin-bottom: 4px !important;
+}
+
+.dm_box_image img {
   max-width: 60%;
-  margin-bottom: 8px;
   border-radius: 16px;
 }
 
 .dm_sender, .dm_receiver {
   display: flex;
   flex-direction: column;
-  margin: 12px 0;
+  margin-bottom: 12px;
 }
 
 .dm_sender .message {
@@ -395,7 +395,7 @@ border-bottom: none;
 }
 
 .dm_receiver .message {
-  background-color: #eaeaea;
+  background-color: #edecec;
   color: black;
 }
 
@@ -414,7 +414,7 @@ border-bottom: none;
 .dm_containerBox {
   border: 1px solid #d9d9d9;
   border-radius: 16px;
-  width: 75%;
+  max-width: 76%;
   margin-bottom: 8px !important;
   padding: 12px;
 }
@@ -439,9 +439,14 @@ margin-top: 8px !important;
 
 .dm_date  {
   margin: auto;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
+  margin-top: 8px;
 }
 
 .dm_date--between {
-  margin-top: 16px;
+  margin-top: 24px;
+}
+
+.line-height--0 {
+  line-height: 0 !important;
 }
