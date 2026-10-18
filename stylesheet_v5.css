@@ -80,6 +80,7 @@ hr {
   flex-direction: column;
   margin: 0 auto;
   line-height: 0 !important;
+  -webkit-text-size-adjust: none;
 }
 
 .wrapper p {
@@ -233,6 +234,8 @@ border-bottom: none;
   background-size: 100%;
   background-repeat: no-repeat;
   display: inline-block;
+  vertical-align: text-bottom;
+  -webkit-text-size-adjust: none;
 }
 
 .icon--comments {
