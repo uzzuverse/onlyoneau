@@ -233,8 +233,7 @@ border-bottom: none;
   margin-right: 4px !important;
   background-size: 100%;
   background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: text-bottom;
+  display: inline-flex;
   -webkit-text-size-adjust: none;
 }
 
