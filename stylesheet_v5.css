@@ -137,6 +137,10 @@ border-bottom: none;
   max-width: fit-content;
 }
 
+.tweet_footer p {
+  line-height: 0 !important;
+}
+
 .tweet_reply--first {
   padding-bottom: 0;
   border-bottom: none;
@@ -167,7 +171,6 @@ border-bottom: none;
   font-size: 13px !important;
   margin-bottom: 12px !important;
 }
-
 
 /* --- account --- */
 
@@ -229,9 +232,7 @@ border-bottom: none;
   margin-right: 4px !important;
   background-size: 100%;
   background-repeat: no-repeat;
-  display:inline-flex;
-  vertical-align: text-bottom;
-  line-height: 0 !important;
+  display: inline-block;
 }
 
 .icon--comments {
