@@ -238,47 +238,47 @@ border-bottom: none;
 }
 
 .icon--comments {
-  background-image: url("https://images.squidge.org/images/2026/09/29/icon_comments.png");
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/icon_comments.png");
 }
 
 .icon--retweets {
-  background-image: url("https://images.squidge.org/images/2026/09/29/icon_retweets.png");
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/icon_retweets.png");
 }
 
 .icon--likes {
-  background-image: url("https://images.squidge.org/images/2026/09/29/icon_likes.png");
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/icon_likes.png");
 }
 
 .icon--likes-filled {
-  background-image: url("https://images.squidge.org/images/2026/09/30/icon_likes-filled.png");
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/icon_likes-filled.png");
 }
 
 .icon--retweets-filled {
-  background-image: url("https://images.squidge.org/images/2026/09/30/icon_retweets-filled.png");
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/icon_retweets-filled.png");
 }
 
 .icon--bookmarks {
-  background-image: url("https://images.squidge.org/images/2026/09/29/icon_bookmarks-unsaved.png");
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/icon_bookmarks-unsaved.png");
   margin-right:0 !important;
 }
 
 .icon--bookmarks-saved {
-  background-image: url("https://images.squidge.org/images/2026/09/29/icon_bookmarks-saved.png");
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/icon_bookmarks-saved.png");
   margin-right:0 !important;
 }
 
 .icon--more {
-  background-image: url("https://images.squidge.org/images/2026/09/29/icon_more.png");
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/icon_more.png");
   margin-top:4px !important;
   margin-right: 0 !important;
 }
 
 .icon--location {
-  background-image: url("https://images.squidge.org/images/2026/09/29/icon_location.png");
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/icon_location.png");
 }
 
 .icon--calendar {
-  background-image: url("https://images.squidge.org/images/2026/09/29/icon_calendar.png");
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/icon_calendar.png");
 }
 
 .tweet_header, .dm_header {
@@ -313,19 +313,19 @@ border-bottom: none;
 }
 
 .pfp_shotaro {
-  background-image: url("https://images.squidge.org/images/2026/09/26/pfp_shotaro.png");
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/pfp_shotaro.png");
 }
 
 .pfp_sungchan {
-  background-image: url("https://images.squidge.org/images/2026/09/26/pfp_sungchan.png");
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/pfp_sungchan.png");
 }
 
 .pfp_eunseok {
-  background-image: url("https://images.squidge.org/images/2026/09/26/pfp_eunseok.png");
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/pfp_eunseok.png");
 }
 
 .pfp_sohee {
-  background-image: url("https://images.squidge.org/images/2026/09/26/pfp_sohee.png");
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/pfp_sohee.png");
 }
 
 
