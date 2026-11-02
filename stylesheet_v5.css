@@ -31,12 +31,12 @@ hr {
   font-weight: bold;
 }
 
-.username, .date, .tweet_footer, .tweet_retweeted p {
+.username, .date, .tweet_footer, .tweet_retweeted p,
+.tweet_poll-results {
   color: #4F6572;
 }
 
-.date,
-.tweet_footer p, .tweet_retweeted p {
+.date, .tweet_footer p, .tweet_retweeted p, .tweet_poll-results {
   font-size: 14px !important;
 }
 
@@ -122,6 +122,34 @@ border-bottom: none;
   width: 100%;
   margin-top: 16px !important;
   display: block;
+}
+
+.tweet_poll {
+  display: flex;
+  margin-top: 16px !important;
+  flex-direction: column;
+}  
+
+.tweet_poll-choices {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.tweet_poll-choices--default {
+  background-color:#d9d9d9;
+  color: black;
+  border-radius: 4px;
+  padding: 6px 12px;
+}
+
+.tweet_poll-choices--win {
+  background-color: #1D9BF0;
+  color: white;
+  border-radius: 4px;
+  padding: 6px 12px;
 }
 
 .tweet_footer {
@@ -330,8 +358,18 @@ border-bottom: none;
 
 .pfp_wapstar {
   background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/pfp_wapstar.png");
-
 }
+
+.pfp_meep {
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/pfp_wapstar.png");
+}
+
+.pfp_mrs {
+  background-image: url("https://raw.githubusercontent.com/uzzuverse/onlyoneau/refs/heads/main/images/pfp_mrs.png");
+}
+
+
+
 
 
 /*-- writing --*/
