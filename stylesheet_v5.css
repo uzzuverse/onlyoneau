@@ -78,7 +78,7 @@ hr {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 3em auto;
   line-height: 0 !important;
   -webkit-text-size-adjust: none;
 }
@@ -320,11 +320,6 @@ border-bottom: none;
 }
 .margin-right--4 {
   margin-right: 4px !important;
-}
-
-.margin--socmedpost {
-  margin-top: 3em;
-  margin-bottom: 3em;
 }
 
 .profile_photo {
